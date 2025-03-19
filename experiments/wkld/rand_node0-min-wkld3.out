@@ -1,0 +1,488 @@
+/home/ac.xwang/install/codes-storage-server/bin/client-mul-wklds --sync=1 --workload-conf-file=/home/ac.xwang/workspace/union+/conf/workload/wkld3.conf --rank-alloc-file=/home/ac.xwang/workspace/union+/conf/alloc/rand_node0-1d-1056-mixwkld.conf --codes-config=/home/ac.xwang/workspace/union+/conf/network/dally-1056-min.conf --lp-io-dir=rand_node0-min-wkld3 --lp-io-use-suffix=1 
+
+Thu Aug 10 01:24:11 2023
+
+ROSS Version: v8.0.0-dirty
+
+tw_net_start: Found world size to be 1 
+
+300 instances of workload nekbone 
+
+300 instances of workload conceptual-checkpoint 
+
+300 instances of workload conceptual-cosmo 
+NIC num injection port not specified, setting to 1
+NIC seq delay not specified, setting to 10.000000
+NIC num copy queues not specified, setting to 1
+Dragonfly rail selection is 3
+within node transfer per byte delay is 0.062500
+
+Number of clients per server 15
+My checkpoint sz 1111.111111 MiB
+ROSS Core Configuration: 
+	Total PEs                                                    1
+	Total KPs                                          [Nodes (1) x KPs (16)] 16
+	Total LPs                                                 2543
+	Simulation End Time                                31536000000000000.00
+	LP-to-PE Mapping                                   model defined
+
+
+ROSS Event Memory Allocation:
+	Model events                                            651009
+	Network events                                              16
+	Total events                                            651024
+
+
+ Rtotal 300 mpirank 246 
+ Rtotal 300 mpirank 286 
+ Rtotal 300 mpirank 248 
+ Rtotal 300 mpirank 81 
+ Rtotal 300 mpirank 24 
+ Rtotal 300 mpirank 174 
+ Rtotal 300 mpirank 198 
+ Rtotal 300 mpirank 180 
+ Rtotal 300 mpirank 264 
+ Rtotal 300 mpirank 209 
+ Rtotal 300 mpirank 148 
+ Rtotal 300 mpirank 229 
+ Rtotal 300 mpirank 70 
+ Rtotal 300 mpirank 193 
+ Rtotal 300 mpirank 158 
+ Rtotal 300 mpirank 11 
+ Rtotal 300 mpirank 96 
+ Rtotal 300 mpirank 116 
+ Rtotal 300 mpirank 28 
+ Rtotal 300 mpirank 291 
+ Rtotal 300 mpirank 250 
+ Rtotal 300 mpirank 267 
+ Rtotal 300 mpirank 98 
+ Rtotal 300 mpirank 77 
+ Rtotal 300 mpirank 182 
+ Rtotal 300 mpirank 258 
+ Rtotal 300 mpirank 222 
+ Rtotal 300 mpirank 283 
+ Rtotal 300 mpirank 188 
+ Rtotal 300 mpirank 266 
+ Rtotal 300 mpirank 262 
+ Rtotal 300 mpirank 44 
+ Rtotal 300 mpirank 153 
+ Rtotal 300 mpirank 147 
+ Rtotal 300 mpirank 256 
+ Rtotal 300 mpirank 122 
+ Rtotal 300 mpirank 272 
+ Rtotal 300 mpirank 49 
+ Rtotal 300 mpirank 293 
+ Rtotal 300 mpirank 197 
+ Rtotal 300 mpirank 255 
+ Rtotal 300 mpirank 2 
+ Rtotal 300 mpirank 3 
+ Rtotal 300 mpirank 18 
+ Rtotal 300 mpirank 129 
+ Rtotal 300 mpirank 74 
+ Rtotal 300 mpirank 21 
+ Rtotal 300 mpirank 57 
+ Rtotal 300 mpirank 276 
+ Rtotal 300 mpirank 273 
+ Rtotal 300 mpirank 120 
+ Rtotal 300 mpirank 58 
+ Rtotal 300 mpirank 295 
+ Rtotal 300 mpirank 169 
+ Rtotal 300 mpirank 237 
+ Rtotal 300 mpirank 119 
+ Rtotal 300 mpirank 252 
+ Rtotal 300 mpirank 141 
+ Rtotal 300 mpirank 171 
+ Rtotal 300 mpirank 265 
+ Rtotal 300 mpirank 294 
+ Rtotal 300 mpirank 187 
+ Rtotal 300 mpirank 263 
+ Rtotal 300 mpirank 128 
+ Rtotal 300 mpirank 67 
+ Rtotal 300 mpirank 61 
+ Rtotal 300 mpirank 170 
+ Rtotal 300 mpirank 31 
+ Rtotal 300 mpirank 215 
+ Rtotal 300 mpirank 196 
+ Rtotal 300 mpirank 166 
+ Rtotal 300 mpirank 144 
+ Rtotal 300 mpirank 12 
+ Rtotal 300 mpirank 177 
+ Rtotal 300 mpirank 103 
+ Rtotal 300 mpirank 289 
+ Rtotal 300 mpirank 69 
+ Rtotal 300 mpirank 201 
+ Rtotal 300 mpirank 185 
+ Rtotal 300 mpirank 233 
+ Rtotal 300 mpirank 97 
+ Rtotal 300 mpirank 75 
+ Rtotal 300 mpirank 0 
+ Rtotal 300 mpirank 181 
+ Rtotal 300 mpirank 135 
+ Rtotal 300 mpirank 239 
+ Rtotal 300 mpirank 183 
+ Rtotal 300 mpirank 247 
+ Rtotal 300 mpirank 298 
+ Rtotal 300 mpirank 230 
+ Rtotal 300 mpirank 42 
+ Rtotal 300 mpirank 156 
+ Rtotal 300 mpirank 131 
+ Rtotal 300 mpirank 118 
+ Rtotal 300 mpirank 253 
+ Rtotal 300 mpirank 41 
+ Rtotal 300 mpirank 190 
+ Rtotal 300 mpirank 212 
+ Rtotal 300 mpirank 218 
+ Rtotal 300 mpirank 108 
+ Rtotal 300 mpirank 208 
+ Rtotal 300 mpirank 168 
+ Rtotal 300 mpirank 244 
+ Rtotal 300 mpirank 10 
+ Rtotal 300 mpirank 207 
+ Rtotal 300 mpirank 243 
+ Rtotal 300 mpirank 43 
+ Rtotal 300 mpirank 92 
+ Rtotal 300 mpirank 176 
+ Rtotal 300 mpirank 138 
+ Rtotal 300 mpirank 165 
+ Rtotal 300 mpirank 121 
+ Rtotal 300 mpirank 80 
+ Rtotal 300 mpirank 194 
+ Rtotal 300 mpirank 261 
+ Rtotal 300 mpirank 275 
+ Rtotal 300 mpirank 219 
+ Rtotal 300 mpirank 112 
+ Rtotal 300 mpirank 7 
+ Rtotal 300 mpirank 134 
+ Rtotal 300 mpirank 123 
+ Rtotal 300 mpirank 292 
+ Rtotal 300 mpirank 133 
+ Rtotal 300 mpirank 109 
+ Rtotal 300 mpirank 4 
+ Rtotal 300 mpirank 203 
+ Rtotal 300 mpirank 152 
+ Rtotal 300 mpirank 284 
+ Rtotal 300 mpirank 155 
+ Rtotal 300 mpirank 167 
+ Rtotal 300 mpirank 223 
+ Rtotal 300 mpirank 36 
+ Rtotal 300 mpirank 254 
+ Rtotal 300 mpirank 179 
+ Rtotal 300 mpirank 235 
+ Rtotal 300 mpirank 65 
+ Rtotal 300 mpirank 277 
+ Rtotal 300 mpirank 23 
+ Rtotal 300 mpirank 59 
+ Rtotal 300 mpirank 60 
+ Rtotal 300 mpirank 62 
+ Rtotal 300 mpirank 84 
+ Rtotal 300 mpirank 34 
+ Rtotal 300 mpirank 288 
+ Rtotal 300 mpirank 47 
+ Rtotal 300 mpirank 140 
+ Rtotal 300 mpirank 115 
+ Rtotal 300 mpirank 269 
+ Rtotal 300 mpirank 25 
+ Rtotal 300 mpirank 221 
+ Rtotal 300 mpirank 184 
+ Rtotal 300 mpirank 63 
+ Rtotal 300 mpirank 281 
+ Rtotal 300 mpirank 282 
+ Rtotal 300 mpirank 88 
+ Rtotal 300 mpirank 86 
+ Rtotal 300 mpirank 35 
+ Rtotal 300 mpirank 126 
+ Rtotal 300 mpirank 251 
+ Rtotal 300 mpirank 125 
+ Rtotal 300 mpirank 48 
+ Rtotal 300 mpirank 279 
+ Rtotal 300 mpirank 89 
+ Rtotal 300 mpirank 136 
+ Rtotal 300 mpirank 202 
+ Rtotal 300 mpirank 216 
+ Rtotal 300 mpirank 124 
+ Rtotal 300 mpirank 173 
+ Rtotal 300 mpirank 200 
+ Rtotal 300 mpirank 14 
+ Rtotal 300 mpirank 40 
+ Rtotal 300 mpirank 145 
+ Rtotal 300 mpirank 8 
+ Rtotal 300 mpirank 105 
+ Rtotal 300 mpirank 259 
+ Rtotal 300 mpirank 27 
+ Rtotal 300 mpirank 87 
+ Rtotal 300 mpirank 20 
+ Rtotal 300 mpirank 30 
+ Rtotal 300 mpirank 79 
+ Rtotal 300 mpirank 1 
+ Rtotal 300 mpirank 85 
+ Rtotal 300 mpirank 94 
+ Rtotal 300 mpirank 204 
+ Rtotal 300 mpirank 163 
+ Rtotal 300 mpirank 83 
+ Rtotal 300 mpirank 56 
+ Rtotal 300 mpirank 15 
+ Rtotal 300 mpirank 271 
+ Rtotal 300 mpirank 50 
+ Rtotal 300 mpirank 290 
+ Rtotal 300 mpirank 130 
+ Rtotal 300 mpirank 268 
+ Rtotal 300 mpirank 90 
+ Rtotal 300 mpirank 257 
+ Rtotal 300 mpirank 287 
+ Rtotal 300 mpirank 226 
+ Rtotal 300 mpirank 285 
+ Rtotal 300 mpirank 191 
+ Rtotal 300 mpirank 280 
+ Rtotal 300 mpirank 154 
+ Rtotal 300 mpirank 17 
+ Rtotal 300 mpirank 64 
+ Rtotal 300 mpirank 51 
+ Rtotal 300 mpirank 205 
+ Rtotal 300 mpirank 160 
+ Rtotal 300 mpirank 16 
+ Rtotal 300 mpirank 162 
+ Rtotal 300 mpirank 270 
+ Rtotal 300 mpirank 5 
+ Rtotal 300 mpirank 95 
+ Rtotal 300 mpirank 240 
+ Rtotal 300 mpirank 113 
+ Rtotal 300 mpirank 111 
+ Rtotal 300 mpirank 45 
+ Rtotal 300 mpirank 6 
+ Rtotal 300 mpirank 175 
+ Rtotal 300 mpirank 149 
+ Rtotal 300 mpirank 26 
+ Rtotal 300 mpirank 192 
+ Rtotal 300 mpirank 214 
+ Rtotal 300 mpirank 71 
+ Rtotal 300 mpirank 241 
+ Rtotal 300 mpirank 54 
+ Rtotal 300 mpirank 159 
+ Rtotal 300 mpirank 178 
+ Rtotal 300 mpirank 104 
+ Rtotal 300 mpirank 91 
+ Rtotal 300 mpirank 217 
+ Rtotal 300 mpirank 172 
+ Rtotal 300 mpirank 68 
+ Rtotal 300 mpirank 143 
+ Rtotal 300 mpirank 151 
+ Rtotal 300 mpirank 199 
+ Rtotal 300 mpirank 227 
+ Rtotal 300 mpirank 236 
+ Rtotal 300 mpirank 206 
+ Rtotal 300 mpirank 234 
+ Rtotal 300 mpirank 72 
+ Rtotal 300 mpirank 225 
+ Rtotal 300 mpirank 93 
+ Rtotal 300 mpirank 39 
+ Rtotal 300 mpirank 220 
+ Rtotal 300 mpirank 210 
+ Rtotal 300 mpirank 101 
+ Rtotal 300 mpirank 139 
+ Rtotal 300 mpirank 245 
+ Rtotal 300 mpirank 53 
+ Rtotal 300 mpirank 157 
+ Rtotal 300 mpirank 19 
+ Rtotal 300 mpirank 107 
+ Rtotal 300 mpirank 127 
+ Rtotal 300 mpirank 33 
+ Rtotal 300 mpirank 150 
+ Rtotal 300 mpirank 106 
+ Rtotal 300 mpirank 186 
+ Rtotal 300 mpirank 37 
+ Rtotal 300 mpirank 78 
+ Rtotal 300 mpirank 296 
+ Rtotal 300 mpirank 213 
+ Rtotal 300 mpirank 114 
+ Rtotal 300 mpirank 231 
+ Rtotal 300 mpirank 249 
+ Rtotal 300 mpirank 211 
+ Rtotal 300 mpirank 100 
+ Rtotal 300 mpirank 242 
+ Rtotal 300 mpirank 228 
+ Rtotal 300 mpirank 238 
+ Rtotal 300 mpirank 29 
+ Rtotal 300 mpirank 274 
+ Rtotal 300 mpirank 32 
+ Rtotal 300 mpirank 260 
+ Rtotal 300 mpirank 299 
+ Rtotal 300 mpirank 232 
+ Rtotal 300 mpirank 132 
+ Rtotal 300 mpirank 13 
+ Rtotal 300 mpirank 224 
+ Rtotal 300 mpirank 117 
+ Rtotal 300 mpirank 137 
+ Rtotal 300 mpirank 99 
+ Rtotal 300 mpirank 76 
+ Rtotal 300 mpirank 38 
+ Rtotal 300 mpirank 297 
+ Rtotal 300 mpirank 161 
+ Rtotal 300 mpirank 66 
+ Rtotal 300 mpirank 110 
+ Rtotal 300 mpirank 73 
+ Rtotal 300 mpirank 189 
+ Rtotal 300 mpirank 164 
+ Rtotal 300 mpirank 146 
+ Rtotal 300 mpirank 142 
+ Rtotal 300 mpirank 55 
+ Rtotal 300 mpirank 278 
+ Rtotal 300 mpirank 52 
+ Rtotal 300 mpirank 82 
+ Rtotal 300 mpirank 22 
+ Rtotal 300 mpirank 102 
+ Rtotal 300 mpirank 195 
+ Rtotal 300 mpirank 9 
+ Rtotal 300 mpirank 46 *** START SEQUENTIAL SIMULATION ***
+
+Set num_servers per router 30, servers per injection queue per router 30, servers per node copy queue per node 1, num nics 32
+
+Checkpoint: Completed 1 iterations for size 166666666, interval 100000000 ns
+
+Cosmo: Completed 5 iterations for comm size 300, Msg Size 7379200
+*** END SIMULATION ***
+
+
+	: Running Time = 4794.4393 seconds
+
+TW Library Statistics:
+	Total Events Processed                              1373063054
+	Events Aborted (part of RBs)                                 0
+	Events Rolled Back                                           0
+	Event Ties Detected in PE Queues                             0
+	Efficiency                                              100.00 %
+	Total Remote (shared mem) Events Processed                   0
+	Percent Remote Events                                     0.00 %
+	Total Remote (network) Events Processed                      0
+	Percent Remote Events                                     0.00 %
+
+	Total Roll Backs                                             0
+	Primary Roll Backs                                           0
+	Secondary Roll Backs                                         0
+	Fossil Collect Attempts                                      0
+	Total GVT Computations                                       0
+
+	Net Events Processed                                1373063054
+	Event Rate (events/sec)                               286386.6
+	Total Events Scheduled Past End Time                         0
+
+TW Memory Statistics:
+	Events Allocated                                        651025
+	Memory Allocated                                       1181209
+	Memory Wasted                                              343
+
+TW Data Structure sizes in bytes (sizeof):
+	PE struct                                                 3888
+	KP struct                                                  960
+	LP struct                                                  960
+	LP Model struct                                             96
+	LP RNGs                                                     80
+	Total LP                                                  1136
+	Event struct                                               976
+	Event struct with Model                                   1848
+
+TW Clock Cycle Statistics (MAX values in secs at 1.0000 GHz):
+	Initialization                                          3.1836
+	Priority Queue (enq/deq)                              584.8434
+	AVL Tree (insert/delete)                                0.0000
+	LZ4 (de)compression                                     0.0000
+	Buddy system                                            0.0000
+	Event Processing                                        0.0000
+	Event Cancel                                            0.0000
+	Event Abort                                             0.0000
+
+	GVT                                                     0.0000
+	Fossil Collect                                          0.0000
+	Primary Rollbacks                                       0.0000
+	Network Read                                            0.0000
+	Other Network                                           0.0000
+	Instrumentation (computation)                           0.0000
+	Instrumentation (write)                                 0.0000
+	Total Time (Note: Using Running Time above for Speedup)  10045.1174
+
+TW GVT Statistics: MPI AllReduce
+	GVT Interval                                                16
+	GVT Real Time Interval (cycles)                    0
+	GVT Real Time Interval (sec)                        0.00000000
+	Batch Size                                                  16
+
+	Forced GVT                                                   0
+	Total GVT Computations                                       0
+	Total All Reduce Calls                                       0
+	Average Reduction / GVT                                   -nan
+
+ Maximum time spent by compute nodes 3583757065.573582 Maximum time spent in write operations 3483756930.605191
+ Avg time spent by compute nodes 3583757065.573615 Avg time spent in write operations 970799611.511919
+
+ Synthetic traffic stats: data received per proc -nan 
+ ----------
+
+ Total bytes sent 250357913216 recvd 250357913216 
+ max runtime 3583756932.188611 ns avg runtime 1785534444.103243 
+ max comm time 3483756932.188611 avg comm time 1537201110.769911 
+ max send time 1853990218.052469 avg send time 386918672.966186 
+ max recv time 1267722865.300643 avg recv time 339055832.526939 
+ max wait time 323822607.303364 avg wait time 72934873.068692 
+
+ ----------
+ Per App Max Elapsed Times:
+	App 0: 615885087.3514
+	App 1: 3583756932.1886
+	App 2: 2480871817.2931
+
+ ----------
+LP-IO: writing output to rand_node0-min-wkld3-1579-1691648652/
+LP-IO: data files:
+   rand_node0-min-wkld3-1579-1691648652/es-stats
+   rand_node0-min-wkld3-1579-1691648652/dragonfly-cn-stats
+   rand_node0-min-wkld3-1579-1691648652/dragonfly-link-stats
+   rand_node0-min-wkld3-1579-1691648652/model-net-category-medium
+   rand_node0-min-wkld3-1579-1691648652/model-net-category-codes-store
+   rand_node0-min-wkld3-1579-1691648652/model-net-category-all
+   rand_node0-min-wkld3-1579-1691648652/checkpoint-client-stats
+   rand_node0-min-wkld3-1579-1691648652/mpi-replay-stats
+   rand_node0-min-wkld3-1579-1691648652/resource
+   rand_node0-min-wkld3-1579-1691648652/lsm-category-all
+   rand_node0-min-wkld3-1579-1691648652/lsm-category-codes-store
+   rand_node0-min-wkld3-1579-1691648652/cs-stats
+
+------------------ Dragonfly Dally Parameters ---------
+	num_routers =            8
+	local_bandwidth =        5.25
+	global_bandwidth =       4.70
+	cn_bandwidth =           16.00
+	num_vcs =                4
+	num_qos_levels =         1
+	local_vc_size =          16384
+	global_vc_size =         16384
+	cn_vc_size =             32768
+	chunk_size =             4096
+	num_cn =                 4
+	cn_radix =               4
+	intra_grp_radix =        7
+	num_groups =             33
+	total_groups =           33
+	virtual radix =          15
+	total_routers =          264
+	total_terminals =        1056
+	num_global_channels =    4
+	num_injection_queues =   1
+	num_rails =              1
+	num_planes =             1
+	cn_delay =               238.42
+	local_delay =            726.61
+	global_delay =           811.64
+	local credit_delay =     1.42
+	global credit_delay =    1.42
+	cn credit_delay =        1.42
+	router_delay =           100.00
+	routing =                MINIMAL
+	adaptive_threshold =     0
+	max hops notification =  2147483647
+------------------------------------------------------
+
+
+Average number of hops traversed 3.360521 average chunk latency 14.609859 us maximum chunk latency 5804.236997 us avg message size 42491.554688 bytes finished messages 7364980 finished chunks 82859460
+
+ADAPTIVE ROUTING STATS: 82859460 chunks routed minimally 0 chunks routed non-minimally completed packets 82859460 
+
+Total packets generated 82859460 finished 82859460 Locally routed- same router 1371817 different-router 16113808 Remote (inter-group) 65373835 

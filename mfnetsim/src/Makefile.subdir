@@ -1,0 +1,23 @@
+lib_LTLIBRARIES += src/libmfnetsim.la
+
+src_libmfnetsim_la_SOURCES = \
+	src/server/codes-store-lp-api.c \
+	src/server/codes-store-pipeline.c \
+	src/server/codes-store-pipeline.h \
+	src/server/codes-store-lp-impl.c \
+	src/server/codes-store-lp-internal.h \
+	src/server/codes-ex-store-api.c \
+	src/server/codes-ex-store-lp-impl.c \
+	src/client/codes-store-client-lp-impl.c \
+	src/client/codes-store-client-barrier-lp-impl.c \
+	src/client/io-sim-mode.h \
+	src/client/io-sim-mode.c \
+	src/client/client-dummy.c \
+	src/client/dist.h \
+	src/client/dist.c \
+	src/client/oid-map.h \
+	src/client/oid-map.c 
+
+bin_PROGRAMS += src/client/client-mul-wklds
+src_client_client_mul_wklds_SOURCES = \
+ src/client/client-mul-wklds.c

@@ -1,0 +1,176 @@
+/home/ac.xwang/install/codes-storage-server/bin/client-mul-wklds --sync=1 --workload-conf-file=/home/ac.xwang/workspace/union+/conf/workload/milc.conf --rank-alloc-file=/home/ac.xwang/workspace/union+/conf/alloc/cont-1d-1056-300p1.conf --codes-config=/home/ac.xwang/workspace/union+/conf/network/dally-1056-par.conf --lp-io-dir=cont-milc --lp-io-use-suffix=1 
+
+Wed Aug  9 22:20:13 2023
+
+ROSS Version: v8.0.0-dirty
+
+tw_net_start: Found world size to be 1 
+
+300 instances of workload milc 
+NIC num injection port not specified, setting to 1
+NIC seq delay not specified, setting to 10.000000
+NIC num copy queues not specified, setting to 1
+Dragonfly rail selection is 3
+within node transfer per byte delay is 0.062500
+
+Number of clients per server 15
+My checkpoint sz 3333.333333 MiB
+ROSS Core Configuration: 
+	Total PEs                                                    1
+	Total KPs                                          [Nodes (1) x KPs (16)] 16
+	Total LPs                                                 2543
+	Simulation End Time                                31536000000000000.00
+	LP-to-PE Mapping                                   model defined
+
+
+ROSS Event Memory Allocation:
+	Model events                                            651009
+	Network events                                              16
+	Total events                                            651024
+
+*** START SEQUENTIAL SIMULATION ***
+
+Set num_servers per router 30, servers per injection queue per router 30, servers per node copy queue per node 1, num nics 32
+*** END SIMULATION ***
+
+
+	: Running Time = 2283.6991 seconds
+
+TW Library Statistics:
+	Total Events Processed                               861056197
+	Events Aborted (part of RBs)                                 0
+	Events Rolled Back                                           0
+	Event Ties Detected in PE Queues                             0
+	Efficiency                                              100.00 %
+	Total Remote (shared mem) Events Processed                   0
+	Percent Remote Events                                     0.00 %
+	Total Remote (network) Events Processed                      0
+	Percent Remote Events                                     0.00 %
+
+	Total Roll Backs                                             0
+	Primary Roll Backs                                           0
+	Secondary Roll Backs                                         0
+	Fossil Collect Attempts                                      0
+	Total GVT Computations                                       0
+
+	Net Events Processed                                 861056197
+	Event Rate (events/sec)                               377044.5
+	Total Events Scheduled Past End Time                         0
+
+TW Memory Statistics:
+	Events Allocated                                        651025
+	Memory Allocated                                       1181209
+	Memory Wasted                                              343
+
+TW Data Structure sizes in bytes (sizeof):
+	PE struct                                                 3888
+	KP struct                                                  960
+	LP struct                                                  960
+	LP Model struct                                             96
+	LP RNGs                                                     80
+	Total LP                                                  1136
+	Event struct                                               976
+	Event struct with Model                                   1848
+
+TW Clock Cycle Statistics (MAX values in secs at 1.0000 GHz):
+	Initialization                                          2.5373
+	Priority Queue (enq/deq)                              413.1369
+	AVL Tree (insert/delete)                                0.0000
+	LZ4 (de)compression                                     0.0000
+	Buddy system                                            0.0000
+	Event Processing                                        0.0000
+	Event Cancel                                            0.0000
+	Event Abort                                             0.0000
+
+	GVT                                                     0.0000
+	Fossil Collect                                          0.0000
+	Primary Rollbacks                                       0.0000
+	Network Read                                            0.0000
+	Other Network                                           0.0000
+	Instrumentation (computation)                           0.0000
+	Instrumentation (write)                                 0.0000
+	Total Time (Note: Using Running Time above for Speedup)   4784.6850
+
+TW GVT Statistics: MPI AllReduce
+	GVT Interval                                                16
+	GVT Real Time Interval (cycles)                    0
+	GVT Real Time Interval (sec)                        0.00000000
+	Batch Size                                                  16
+
+	Forced GVT                                                   0
+	Total GVT Computations                                       0
+	Total All Reduce Calls                                       0
+	Average Reduction / GVT                                   -nan
+
+ Maximum time spent by compute nodes 335932130.290226 Maximum time spent in write operations 0.000000
+ Avg time spent by compute nodes 335931050.055803 Avg time spent in write operations 0.000000
+
+ Synthetic traffic stats: data received per proc -nan 
+ ----------
+
+ Total bytes sent 238882137600 recvd 238882137600 
+ max runtime 335932130.290226 ns avg runtime 335922525.993054 
+ max comm time 335927130.290226 avg comm time 335917525.993054 
+ max send time 1723437155.341243 avg send time 1388943196.138831 
+ max recv time 1540909986.020615 avg recv time 1376345679.197209 
+ max wait time 321698727.855942 avg wait time 307668494.737353 
+
+ ----------
+ Per App Max Elapsed Times:
+	App 0: 335932130.2902
+
+ ----------
+LP-IO: writing output to cont-milc-7504-1691637613/
+LP-IO: data files:
+   cont-milc-7504-1691637613/es-stats
+   cont-milc-7504-1691637613/dragonfly-cn-stats
+   cont-milc-7504-1691637613/dragonfly-link-stats
+   cont-milc-7504-1691637613/model-net-category-medium
+   cont-milc-7504-1691637613/model-net-category-all
+   cont-milc-7504-1691637613/checkpoint-client-stats
+   cont-milc-7504-1691637613/mpi-replay-stats
+   cont-milc-7504-1691637613/resource
+   cont-milc-7504-1691637613/lsm-category-all
+   cont-milc-7504-1691637613/cs-stats
+
+------------------ Dragonfly Dally Parameters ---------
+	num_routers =            8
+	local_bandwidth =        5.25
+	global_bandwidth =       4.70
+	cn_bandwidth =           16.00
+	num_vcs =                4
+	num_qos_levels =         1
+	local_vc_size =          16384
+	global_vc_size =         16384
+	cn_vc_size =             32768
+	chunk_size =             4096
+	num_cn =                 4
+	cn_radix =               4
+	intra_grp_radix =        7
+	num_groups =             33
+	total_groups =           33
+	virtual radix =          15
+	total_routers =          264
+	total_terminals =        1056
+	num_global_channels =    4
+	num_injection_queues =   1
+	num_rails =              1
+	num_planes =             1
+	cn_delay =               238.42
+	local_delay =            726.61
+	global_delay =           811.64
+	local credit_delay =     1.42
+	global credit_delay =    1.42
+	cn credit_delay =        1.42
+	router_delay =           100.00
+	routing =                PROG_ADAPTIVE
+	adaptive_threshold =     0
+	max hops notification =  2147483647
+------------------------------------------------------
+
+
+Average number of hops traversed 2.882076 average chunk latency 19.960135 us maximum chunk latency 944.072742 us avg message size 263318.062500 bytes finished messages 907200 finished chunks 58987200
+
+ADAPTIVE ROUTING STATS: 41015613 chunks routed minimally 17971587 chunks routed non-minimally completed packets 58987200 
+
+Total packets generated 58987200 finished 58987200 Locally routed- same router 12770400 different-router 24048000 Remote (inter-group) 22168800 

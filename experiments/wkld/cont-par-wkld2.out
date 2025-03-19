@@ -1,0 +1,188 @@
+/home/ac.xwang/install/codes-storage-server/bin/client-mul-wklds --sync=1 --workload-conf-file=/home/ac.xwang/workspace/union+/conf/workload/wkld2.conf --rank-alloc-file=/home/ac.xwang/workspace/union+/conf/alloc/cont-1d-1056-mixwkld.conf --codes-config=/home/ac.xwang/workspace/union+/conf/network/dally-1056-par.conf --lp-io-dir=cont-par-wkld2 --lp-io-use-suffix=1 
+
+Thu Aug 10 01:20:41 2023
+
+ROSS Version: v8.0.0-dirty
+
+tw_net_start: Found world size to be 1 
+
+300 instances of workload milc 
+
+300 instances of workload conceptual-checkpoint 
+
+300 instances of workload conceptual-cosmo 
+NIC num injection port not specified, setting to 1
+NIC seq delay not specified, setting to 10.000000
+NIC num copy queues not specified, setting to 1
+Dragonfly rail selection is 3
+within node transfer per byte delay is 0.062500
+
+Number of clients per server 15
+My checkpoint sz 1111.111111 MiB
+ROSS Core Configuration: 
+	Total PEs                                                    1
+	Total KPs                                          [Nodes (1) x KPs (16)] 16
+	Total LPs                                                 2543
+	Simulation End Time                                31536000000000000.00
+	LP-to-PE Mapping                                   model defined
+
+
+ROSS Event Memory Allocation:
+	Model events                                            651009
+	Network events                                              16
+	Total events                                            651024
+
+*** START SEQUENTIAL SIMULATION ***
+
+Set num_servers per router 30, servers per injection queue per router 30, servers per node copy queue per node 1, num nics 32
+
+Cosmo: Completed 5 iterations for comm size 300, Msg Size 7379200
+
+Checkpoint: Completed 1 iterations for size 166666666, interval 100000000 ns
+*** END SIMULATION ***
+
+
+	: Running Time = 3341.2633 seconds
+
+TW Library Statistics:
+	Total Events Processed                              1263037115
+	Events Aborted (part of RBs)                                 0
+	Events Rolled Back                                           0
+	Event Ties Detected in PE Queues                             0
+	Efficiency                                              100.00 %
+	Total Remote (shared mem) Events Processed                   0
+	Percent Remote Events                                     0.00 %
+	Total Remote (network) Events Processed                      0
+	Percent Remote Events                                     0.00 %
+
+	Total Roll Backs                                             0
+	Primary Roll Backs                                           0
+	Secondary Roll Backs                                         0
+	Fossil Collect Attempts                                      0
+	Total GVT Computations                                       0
+
+	Net Events Processed                                1263037115
+	Event Rate (events/sec)                               378011.8
+	Total Events Scheduled Past End Time                         0
+
+TW Memory Statistics:
+	Events Allocated                                        651025
+	Memory Allocated                                       1181209
+	Memory Wasted                                              343
+
+TW Data Structure sizes in bytes (sizeof):
+	PE struct                                                 3888
+	KP struct                                                  960
+	LP struct                                                  960
+	LP Model struct                                             96
+	LP RNGs                                                     80
+	Total LP                                                  1136
+	Event struct                                               976
+	Event struct with Model                                   1848
+
+TW Clock Cycle Statistics (MAX values in secs at 1.0000 GHz):
+	Initialization                                          3.1924
+	Priority Queue (enq/deq)                              528.3365
+	AVL Tree (insert/delete)                                0.0000
+	LZ4 (de)compression                                     0.0000
+	Buddy system                                            0.0000
+	Event Processing                                        0.0000
+	Event Cancel                                            0.0000
+	Event Abort                                             0.0000
+
+	GVT                                                     0.0000
+	Fossil Collect                                          0.0000
+	Primary Rollbacks                                       0.0000
+	Network Read                                            0.0000
+	Other Network                                           0.0000
+	Instrumentation (computation)                           0.0000
+	Instrumentation (write)                                 0.0000
+	Total Time (Note: Using Running Time above for Speedup)   7000.4721
+
+TW GVT Statistics: MPI AllReduce
+	GVT Interval                                                16
+	GVT Real Time Interval (cycles)                    0
+	GVT Real Time Interval (sec)                        0.00000000
+	Batch Size                                                  16
+
+	Forced GVT                                                   0
+	Total GVT Computations                                       0
+	Total All Reduce Calls                                       0
+	Average Reduction / GVT                                   -nan
+
+ Maximum time spent by compute nodes 6311623045.919643 Maximum time spent in write operations 6211622943.299997
+ Avg time spent by compute nodes 6311623045.919661 Avg time spent in write operations 2559634656.414707
+
+ Synthetic traffic stats: data received per proc -nan 
+ ----------
+
+ Total bytes sent 327137369600 recvd 327137369600 
+ max runtime 6311622944.694470 ns avg runtime 3110898074.263421 
+ max comm time 6211622944.694470 avg comm time 2862563074.263420 
+ max send time 1727690771.669748 avg send time 533619316.613976 
+ max recv time 1539907389.577934 avg recv time 499187387.488255 
+ max wait time 321574122.356554 avg wait time 102496226.519241 
+
+ ----------
+ Per App Max Elapsed Times:
+	App 0: 336555648.4764
+	App 1: 6311622944.6945
+	App 2: 2745077264.3097
+
+ ----------
+LP-IO: writing output to cont-par-wkld2-19635-1691648442/
+LP-IO: data files:
+   cont-par-wkld2-19635-1691648442/es-stats
+   cont-par-wkld2-19635-1691648442/model-net-category-codes-store
+   cont-par-wkld2-19635-1691648442/lsm-category-codes-store
+   cont-par-wkld2-19635-1691648442/dragonfly-cn-stats
+   cont-par-wkld2-19635-1691648442/dragonfly-link-stats
+   cont-par-wkld2-19635-1691648442/model-net-category-medium
+   cont-par-wkld2-19635-1691648442/model-net-category-all
+   cont-par-wkld2-19635-1691648442/checkpoint-client-stats
+   cont-par-wkld2-19635-1691648442/mpi-replay-stats
+   cont-par-wkld2-19635-1691648442/resource
+   cont-par-wkld2-19635-1691648442/lsm-category-all
+   cont-par-wkld2-19635-1691648442/cs-stats
+
+------------------ Dragonfly Dally Parameters ---------
+	num_routers =            8
+	local_bandwidth =        5.25
+	global_bandwidth =       4.70
+	cn_bandwidth =           16.00
+	num_vcs =                4
+	num_qos_levels =         1
+	local_vc_size =          16384
+	global_vc_size =         16384
+	cn_vc_size =             32768
+	chunk_size =             4096
+	num_cn =                 4
+	cn_radix =               4
+	intra_grp_radix =        7
+	num_groups =             33
+	total_groups =           33
+	virtual radix =          15
+	total_routers =          264
+	total_terminals =        1056
+	num_global_channels =    4
+	num_injection_queues =   1
+	num_rails =              1
+	num_planes =             1
+	cn_delay =               238.42
+	local_delay =            726.61
+	global_delay =           811.64
+	local credit_delay =     1.42
+	global credit_delay =    1.42
+	cn credit_delay =        1.42
+	router_delay =           100.00
+	routing =                PROG_ADAPTIVE
+	adaptive_threshold =     0
+	max hops notification =  2147483647
+------------------------------------------------------
+
+
+Average number of hops traversed 2.451094 average chunk latency 15.670831 us maximum chunk latency 4067.519629 us avg message size 368043.750000 bytes finished messages 1058920 finished chunks 95946360
+
+ADAPTIVE ROUTING STATS: 76245897 chunks routed minimally 19700463 chunks routed non-minimally completed packets 95946360 
+
+Total packets generated 95946360 finished 95946360 Locally routed- same router 27131400 different-router 44684680 Remote (inter-group) 24130280 
