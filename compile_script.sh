@@ -92,7 +92,7 @@ pushd Union
 ./prepare.sh
 mkdir build
 pushd build
-../configure --disable-shared --with-conceptual="${INSTALL_DIR}/conceptual" --prefix="${INSTALL_DIR}/union" CC=mpicc CXX=mpicxx
+../configure --disable-shared --with-conceptual="${INSTALL_DIR}/conceptual" --with-conceptual-src="${CUR_DIR}/conceptual-1.5.1b" --prefix="${INSTALL_DIR}/union" CC=mpicc CXX=mpicxx
 make -j4 && make install
 err=$?
 [[ $err -ne 0 ]] && exit $err
